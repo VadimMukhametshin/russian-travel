@@ -1,0 +1,8 @@
+.card__paragraph {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  /* or 29px */
+  line-height: 163%;
+}

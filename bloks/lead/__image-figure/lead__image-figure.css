@@ -1,0 +1,12 @@
+.lead__image-figure {
+  align-self: start;
+  color: #FFFFFF;
+  font-size: 10px;
+  font-style: normal;
+  /* identical to box height, or 140% */
+  font-weight: normal;
+  justify-self: end;
+  letter-spacing: 1.5px;
+  line-height: 14px;
+  text-transform: uppercase;
+}

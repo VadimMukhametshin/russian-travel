@@ -1,0 +1,4 @@
+.header__lang-link_invisible:checked + .header__lang-link_visible {
+  /*border-bottom: 2px solid #FFFFFF;*/
+  text-decoration-line: underline;
+}

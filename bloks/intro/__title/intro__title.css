@@ -1,0 +1,9 @@
+.intro__title {
+  color: #FFFFFF;
+  font-size: 54px;
+  font-weight: 900;
+  height: 58px;
+  line-height: 58px;
+  /* identical to box height, or 107% */
+  width: 690px;
+}

@@ -1,0 +1,34 @@
+@import url(../vendor/fonts.css);
+
+@import url(../vendor/normalize.css);
+
+@import url(../bloks/page/page.css);
+
+@import url(../bloks/header/header.css);
+@import url(../bloks/header/__logo/header__logo.css);
+@import url(../bloks/header/__lang-link/header__lang-link.css);
+@import url(../bloks/header/__lang-link/_invisible/header__lang-link_invisible.css);
+@import url(../bloks/header/__lang-link/_visible/header__lang-link_visible.css);
+
+@import url(../bloks/content/content.css);
+
+@import url(../bloks/lead/lead.css);
+@import url(../bloks/lead/__title/lead__title.css);
+@import url(../bloks/lead/__subtitle/lead__subtitle.css);
+@import url(../bloks/lead/__image/lead__image.css);
+@import url(../bloks/lead/__image-figure/lead__image-figure.css);
+
+@import url(../bloks/intro/intro.css);
+@import url(../bloks/intro/__title/intro__title.css);
+@import url(../bloks/intro/__text/intro__text.css);
+@import url(../bloks/intro/__list/intro__list.css);
+
+@import url(../bloks/photo-grid/photo-grid.css);
+@import url(../bloks/photo-grid/__item/photo-grid__item.css);
+
+@import url(../bloks/card/card.css);
+@import url(../bloks/card/__title/card__title.css);
+@import url(../bloks/card/__image/card__image.css);
+@import url(../bloks/card/__description/card__description.css);
+@import url(../bloks/card/__link/card__link.css);
+@import url(../bloks/card/__paragraph/card__paragraph.css);

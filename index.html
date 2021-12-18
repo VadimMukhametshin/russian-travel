@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Путешествия по России</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="pages/index.css" rel="stylesheet" type="text/css">
 </head>
 <body class="page">
@@ -89,7 +89,12 @@
   <section class="places">
     <div class="card">
       <h2 class="card__title">Куршская коса</h2>
-      <a class="card__link" href="http://park-kosa.ru"><span>url</span>park-kosa.ru</a>
+      <div class="card__links-container">
+        <h3 class="card__url-heading">URL</h3>
+        <a class="card__link" href="http://park-kosa.ru">
+          park-kosa.ru
+        </a>
+      </div>
       <img alt="Куршская коса" class="card__image" src="images/place-kosa.jpg">
       <div class="card__description">
         <p class="card__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
@@ -103,7 +108,12 @@
     </div>
     <div class="card">
       <h2 class="card__title">Кольский</h2>
-      <a class="card__link">National Geographic</a>
+      <div class="card__links-container">
+        <h3 class="card__url-heading">URL</h3>
+        <a class="card__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">
+          National Geographic
+        </a>
+      </div>
       <img alt="Кольский" class="card__image" src="images/place-kolsky.jpg">
       <div class="card__description">
         <p class="card__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на
@@ -116,7 +126,12 @@
     </div>
     <div class="card">
       <h2 class="card__title">Алтай</h2>
-      <a class="card__link">Facebook</a>
+      <div class="card__links-container">
+        <h3 class="card__url-heading">URL</h3>
+        <a class="card__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">
+          Facebook
+        </a>
+      </div>
       <img alt="Алтай" class="card__image" src="images/place-altai.jpg">
       <div class="card__description">
         <p class="card__paragraph">Алтай — одно из красивейших мест в России.
@@ -131,7 +146,12 @@
     </div>
     <div class="card">
       <h2 class="card__title">Зимний Байкал</h2>
-      <a class="card__link">https://vk.com/baikalmile</a>
+      <div class="card__links-container">
+        <h3 class="card__url-heading">URL</h3>
+        <a class="card__link" href="https://vk.com/baikalmile">
+          https://vk.com/baikalmile
+        </a>
+      </div>
       <img alt="Зимний Байкал" class="card__image" src="images/place-winter-baikal.jpg">
       <div class="card__description">
         <p class="card__paragraph">Всем известен Байкал как крупнейшее озеро
@@ -146,7 +166,12 @@
     </div>
     <div class="card">
       <h2 class="card__title">Карелия</h2>
-      <a class="card__link">http://vodlozero.ru/</a>
+      <div class="card__links-container">
+        <h3 class="card__url-heading">URL</h3>
+        <a class="card__link" href="http://vodlozero.ru">
+          http://vodlozero.ru/
+        </a>
+      </div>
       <img alt="Карелия" class="card__image" src="images/place-karelia.jpg">
       <div class="card__description">
         <p class="card__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница
@@ -156,9 +181,23 @@
           километров не встретишь тропы. А на редких тропинках деревья
           в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
         </p>
-
       </div>
     </div>
+  </section>
+  <section class="cover">
+    <h2 class="cover__title">До Байкала «на собаках»</h2>
+    <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+    </h3>
+  </section>
+  <section class="footer">
+    <ul class="footer__links">
+      <li class="footer__links-item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+      <li class="footer__links-item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+      <li class="footer__links-item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+      <li class="footer__links-item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
+      <li class="footer__links-item"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+    </ul>
+    <div class="footer__copyright">© 2020. Впишите своё имя</div>
   </section>
 </main>
 

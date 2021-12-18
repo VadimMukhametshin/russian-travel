@@ -30,5 +30,17 @@
 @import url(../bloks/card/__title/card__title.css);
 @import url(../bloks/card/__image/card__image.css);
 @import url(../bloks/card/__description/card__description.css);
+@import url(../bloks/card/__links-container/card__links-container.css);
 @import url(../bloks/card/__link/card__link.css);
+@import url(../bloks/card/__url-heading/card__url-heading.css);
 @import url(../bloks/card/__paragraph/card__paragraph.css);
+
+@import url(../bloks/cover/cover.css);
+@import url(../bloks/cover/__title/cover__title.css);
+@import url(../bloks/cover/__subtitle/cover__subtitle.css);
+
+@import url(../bloks/footer/footer.css);
+@import url(../bloks/footer/__links/footer__links.css);
+@import url(../bloks/footer/__links-item/footer__links-item.css);
+@import url(../bloks/footer/__link/footer__link.css);
+@import url(../bloks/footer/__copyright/footer__copyright.css);

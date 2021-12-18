@@ -1,15 +1,12 @@
 .lead__image {
-  display: flex;
   background-image: url("../../../images/lead-polka.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  padding-top: calc(580/ 928 * 100%);
-  width: 100%;
+  display: flex;
   justify-content: center;
-
+  padding-top: calc(580 / 928 * 100%);
+  width: 100%;
 }
 
-.lead__image:after{
 
-}

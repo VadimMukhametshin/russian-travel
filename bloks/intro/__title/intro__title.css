@@ -2,8 +2,14 @@
   color: #FFFFFF;
   font-size: 54px;
   font-weight: 900;
-  height: 58px;
-  line-height: 58px;
+  line-height: 107%;
+  margin-bottom: 40px;
   /* identical to box height, or 107% */
-  width: 690px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    font-size: 40px;
+    line-height: 44px;
+  }
 }

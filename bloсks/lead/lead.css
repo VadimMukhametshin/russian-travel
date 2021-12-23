@@ -1,0 +1,22 @@
+.lead {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: calc(56 / 1148 * 100%);
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    padding: 48px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+

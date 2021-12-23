@@ -1,0 +1,26 @@
+.card {
+  display: grid;
+  gap: 48px 40px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    gap: 32px;
+    max-width: 320px;
+
+  }
+}

@@ -1,0 +1,13 @@
+.cover {
+  align-items: center;
+  aspect-ratio: 1184 / 740;
+  background-image: url("../../images/cover-trains.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1280px;
+  width: 100%;
+}

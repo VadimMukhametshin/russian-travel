@@ -1,0 +1,26 @@
+.card__paragraph {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 29px;
+  margin: 0 0 0 0;
+}
+
+.card__paragraph:nth-child(2) {
+  margin-top: 27px;
+}
+
+@media screen and (max-width: 768px) {
+  .card__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card__paragraph {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

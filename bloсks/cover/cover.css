@@ -1,6 +1,7 @@
 .cover {
   align-items: center;
-  aspect-ratio: 1184 / 740;
+  aspect-ratio: 16 / 10;
+  /*aspect-ratio:  1.6;*/
   background-image: url("../../images/cover-trains.jpg");
   background-position: center;
   background-repeat: no-repeat;

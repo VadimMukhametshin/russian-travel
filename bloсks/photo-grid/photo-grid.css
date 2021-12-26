@@ -2,10 +2,10 @@
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
   justify-content: center;
   padding-bottom: 92px;
-  padding-top: 168px;
+  padding-top: 92px;
 }
 
 @media screen and (max-width: 1024px) {
